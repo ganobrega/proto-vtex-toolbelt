@@ -8,10 +8,10 @@ git-url = "https://github.com/vtex/toolbelt"
 download-file = "v{version}.tar.gz"
 
 [platform.macos]
-download-file = "v{version}-{arch}.tar.gz"
+download-file = "v{version}.tar.gz"
 
 [platform.windows]
-download-file = "v{version}-{arch}.zip"
+download-file = "v{version}.zip"
 
 [install]
 download-url = "https://github.com/vtex/toolbelt/archive/refs/tags/{download_file}"
