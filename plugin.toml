@@ -1,0 +1,20 @@
+name = "vtex"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/vtex/toolbelt"
+
+[platform.linux]
+download-file = "v{version}.tar.gz"
+
+[platform.macos]
+download-file = "v{version}-{arch}.tar.gz"
+
+[platform.windows]
+download-file = "v{version}-{arch}.zip"
+
+[install]
+download-url = "https://github.com/vtex/toolbelt/releases/download/v{version}/{download_file}"
+
+[install.arch]
+x86 = "i686"
