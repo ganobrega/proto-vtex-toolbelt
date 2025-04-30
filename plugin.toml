@@ -14,7 +14,7 @@ download-file = "v{version}-{arch}.tar.gz"
 download-file = "v{version}-{arch}.zip"
 
 [install]
-download-url = "https://github.com/vtex/toolbelt/releases/download/v{version}/{download_file}"
+download-url = "https://github.com/vtex/toolbelt/archive/refs/tags/{download_file}"
 
 [install.arch]
 x86 = "i686"
